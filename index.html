@@ -165,15 +165,11 @@ div {
 </style>
 </head>
 <body>
-	<form name="contact" method="POST" netlify>
+	<form class="AffectiveSlider" name="contact" method="POST" netlify>
 
 		<p>
-   	 <label>Name <input type="text" name="name" /></label>
- 	 </p>
-
-	</form>
-	
-	<form class="AffectiveSlider">
+   	 		<label>Name <input type="text" name="name" /></label>
+ 		</p>
 
 		<div id='AffectiveSlider'>
 	<!--
@@ -184,7 +180,7 @@ div {
 	<object class='arousal_svg' type="image/svg+xml" data="images/AS_wideawake.svg"></object>
 	<object class='intensity_cue_svg' type="image/svg+xml" data="images/AS_intensity_cue.svg"></object>
 	</div>
-
+	
 	Level of pleasure
 	<div class="pleasure">
 	<object class='arousal_svg' type="image/svg+xml" data="images/AS_unhappy.svg"></object>
@@ -194,7 +190,9 @@ div {
 	</div>
 	-->
 		</div>
-		<input type='submit' value='Submit'/>
+		<p>
+    		<button type="submit">Submit</button>
+  		</p>
 
 	</form>
 <script>
